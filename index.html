@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Capture Demo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <h1>Access Camera and Capture Photo</h1>
+    <div id="main-container">
+        <div class="video-container">
+            <video id="camera" autoplay></video>
+            <button id="capture-btn">Capture Photo</button>
+        </div>
+        <div class="canvas-container">
+            <canvas id="photo" style="display:none;"></canvas>
+            <button id="retake-btn">Re-take</button>
+        </div>    
+    </div>
+    <div class="llm-response-container">
+        <h2 id="llm-response-title">Brief Of your Emotion</h2>
+        <h4 id="paragraph"></h4>
+    </div>
+    
+</body>
+</html>
