@@ -64,7 +64,7 @@ Keep the response short and crisp.
 `
 // Now when you detect person is happy the first thing need to do that is appreciate the person and ask him/her why is he happy today ?
 async function analyzeImageWithLLM(base64Image, query) {
-    const apiKey = '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';
+    const apiKey = GROQ_API_KEY; // provide your groq api key
     const apiEndpoint = 'https://api.groq.com/openai/v1/chat/completions';
     const modelId = "meta-llama/llama-4-scout-17b-16e-instruct";
 
